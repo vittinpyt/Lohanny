@@ -2,7 +2,7 @@ from flask import Flask, render_template
 import os
 
 app = Flask(__name__)
-foto_dir = 'FloresLohanny'
+foto_dir = 'FloresLohanny.jpg'
 
 @app.route('/')
 def index():
